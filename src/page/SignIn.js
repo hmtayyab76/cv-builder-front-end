@@ -60,7 +60,7 @@ function SignIn() {
             required
           />
           {!isEmailValid && (
-            <p className="text-red-500 text-xs mt-1">Invalid email format</p>
+            <p className="text-red-500 text-xs mt-1">Invalid email format.</p>
           )}
         </div>
         <div className="mb-4 relative">
@@ -106,7 +106,7 @@ function SignIn() {
         <div className="mt-4 text-center">
           <button
             className="text-indigo-600 hover:underline focus:outline-none"
-            onClick={() => {}}
+            onClick={() => { }}
           >
             Forgot password?
           </button>
