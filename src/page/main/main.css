@@ -1,0 +1,80 @@
+.underline {
+  width: 65px;
+  height: 6px;
+  border-radius: 3px;
+  background-color: white;
+}
+
+.shap {
+  background: linear-gradient(to right, #51e2c2, #4bccef);
+}
+.line2 {
+  width: 65px;
+  height: 6px;
+  border-radius: 3px;
+  background-color: #00c8aa;
+}
+.line3 {
+  width: 65px;
+  height: 6px;
+  border-radius: 3px;
+  background-color: #fbd04c;
+}
+
+.cimg {
+  width: 35% !important;
+}
+
+.card {
+  min-width: 510px;
+  width: auto;
+  background-color: #f5f5f5;
+  border-radius: 2rem;
+  position: relative;
+}
+@media all and (max-width: 680px) {
+  .card {
+    min-width: 300px !important;
+  }
+}
+.line {
+  border-top: 0.3rem solid #cdcdcd;
+  width: 40%;
+}
+.fbg-1 {
+  background-color: #425061;
+}
+.fbg-2 {
+  background-color: #313b47;
+}
+.fbg-3 {
+  background-color: #1f262e;
+}
+.fb {
+  color: #425061;
+}
+.ready-bg {
+  background-color: #f5f5f5;
+}
+.bclr {
+  color: #f5f5f5;
+}
+.ready-btn {
+  background-color: #2cacd5;
+}
+.bgbtn {
+  background-color: #00c8aa !important;
+}
+.green-bg {
+  background-color: #51e2c2;
+}
+.bxs {
+  box-shadow: 0 0 10px 4px rgba(0, 0, 0, 0.1);
+}
+.image-corner-bend {
+  transition: transform 0.3s ease;
+}
+
+.image-corner-bend:hover {
+  transform: skew(-150deg) rotate(20deg);
+}

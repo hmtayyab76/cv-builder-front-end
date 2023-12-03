@@ -1,0 +1,24 @@
+* {
+  position: relative;
+}
+.shapp {
+  background: linear-gradient(to right, #51e2c2, #4bccef);
+  height: 12rem;
+}
+.trans2 {
+  transform: perspective(60px) rotateY(2deg);
+}
+.trans1 {
+  transform: perspective(60px) rotateY(-2deg);
+}
+.trans3 {
+  transform: perspective(44px) rotateX(0) rotateY(2deg);
+  box-shadow: -1px 0 3px 0 rgba(0, 0, 0, 0.2), -25px 0 0 -10px #fff,
+    -25px 0 3px -10px rgba(0, 0, 0, 0.3), -50px 0 0 -20px #fff,
+    -50px 0 3px -20px rgba(0, 0, 0, 0.3), -75px 0 0 -30px #fff,
+    -75px 0 3px -30px rgba(0, 0, 0, 0.3);
+}
+[data-router-wrapper] {
+  position: absolute;
+  width: 100%;
+}
